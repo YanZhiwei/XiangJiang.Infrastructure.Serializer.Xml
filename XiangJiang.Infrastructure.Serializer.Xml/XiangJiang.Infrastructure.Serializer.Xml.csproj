@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>nugetico.png</PackageIcon>
@@ -10,11 +10,12 @@
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Infrastructure.Serializer.Xml</PackageProjectUrl>
     <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Infrastructure.Serializer.Xml</RepositoryUrl>
     <Description>Xml serialization and deserialization tool library,using the document: https://github.com/YanZhiwei/XiangJiang.Infrastructure.Serializer.Xml/wiki; Welcome to pull request or star.</Description>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XiangJiang" Version="1.0.3" />
-    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.1" />
+    <PackageReference Include="XiangJiang" Version="1.0.9" />
+    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.4" />
   </ItemGroup>
 
   <ItemGroup>
